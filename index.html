@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bootstrap Website">
+  <meta name="keywords" content=" bootstrap website">
+  <title>Conference Event</title>
+  <link rel="shortcut icon" href="imgs/1.jpg" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="56">
+
+  <div class="loading position-fixed top-0 start-0 w-100 d-flex justify-content-center align-items-center">
+    <div class="spinner rounded-circle border border-4"></div>
+  </div>
+
+  <div id="app">
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg position-fixed start-0 end-0">
+      <div class="container">
+        <a class="navbar-brand" href=""><img src="imgs/image.jpg" loading="lazy" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <span class="btn-close d-lg-none fs-1 d-flex align-items-center justify-content-center ms-1"
+              data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">x</span>
+            <li class="nav-item p-2 text-uppercase">
+              <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+            </li>
+            <li class="nav-item  p-2 text-uppercase">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item  p-2 text-uppercase">
+              <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item  p-2 text-uppercase">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item  p-2 text-uppercase dropdown">
+              <a class="nav-link dropdown-toggle" href="#tickets" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#tickets">Tickets</a></li>
+                <li><a class="dropdown-item" href="#sponsors">Sponsors</a></li>
+                <li><a class="dropdown-item" href="#blog">Blog</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="btn-bg ms-auto py-2 px-3 text-uppercase  rounded-pill text-white">
+            Get Tickets
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Landing -->
+    <div class=" landing p-5 d-flex justify-content-center align-items-center" id="landing">
+      <img src="imgs/1.jpg" loading="lazy" alt="Background Image">
+      <div class="text z-3 w-100 text-end  text-uppercase" data-aos="fade-up" data-aos-easing="linear"
+        data-aos-duration="1500">
+        <h1 class="my-2">Science <br> Conference</h1>
+        <p class="my-4">Shangri-La Hotel, Bangkok,
+          Bangkok, Thailand</p>
+        <button class="btn-bg py-2 px-3 text-uppercase rounded-pill text-white">
+          More Information <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start About -->
+    <div class="about sec-padding" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text mb-5 text-center text-md-start" data-aos="fade-up" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <span class="border-bottom color-pink text-uppercase p-1"> About Conference</span>
+            <h2 class="my-4 fs-1">WELCOME TO THE PROJECT MANAGEMENT</h2>
+            <p class="fs-6 lh-lg mb-5">
+              The Project Management is a platform to learn expert techniques for building successful project teams,
+              creating
+              efficient plans and implementing effective tracking measures to ensure your projects come in on deadline
+              and
+              on
+              budget. In one fast-paced, well-designed day, we’ll cover all the essential elements of project
+              management.
+            </p>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white" data-aos="fade-up"
+              data-aos-easing="linear" data-aos-duration="1500">Interested
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <img class="img-fluid" src="imgs/image (12).jpg" loading="lazy" alt="about image">
+          </div>
+        </div>
+        <div class="row event g-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="col-md-4">
+            <span class="color-pink">CONFERENCE DATE</span>
+            <h4 class="mt-3">COUNT EVERY SECOND UNTIL THE EVENT</h4>
+          </div>
+          <div class="col-md-8 items d-flex justify-content-center gap-4 flex-wrap">
+            <div class="item p-3 border text-center" data-aos="fade-up" data-aos-easing="linear"
+              data-aos-duration="1500">
+              <p class="months fs-1 m-0">02</p>
+              <span class="text-white-50 fs-5">Months</span>
+            </div>
+            <div class="item p-3 border text-center" data-aos="fade-up" data-aos-easing="linear"
+              data-aos-duration="1500">
+              <p class="days fs-1 m-0">14</p>
+              <span class="text-white-50 fs-5">Days</span>
+            </div>
+            <div class="item p-3 border text-center" data-aos="fade-up" data-aos-easing="linear"
+              data-aos-duration="1500">
+              <p class="hours fs-1 m-0">06</p>
+              <span class="text-white-50 fs-5">Hours</span>
+            </div>
+            <div class="item p-3 border text-center" data-aos="fade-up" data-aos-easing="linear"
+              data-aos-duration="1500">
+              <p class="minutes fs-1 m-0">20</p>
+              <span class="text-white-50 fs-5">Minutes</span>
+            </div>
+            <div class="item p-3 border text-center" data-aos="fade-up" data-aos-easing="linear"
+              data-aos-duration="1500">
+              <p class="seconds fs-1 m-0">40</p>
+              <span class="text-white-50 fs-5">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Speakers -->
+    <div class="speakers bg-img sec-padding position-relative" id="speakers">
+      <div class="container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+        <h4 class="text-uppercase text-center">Our Speaking</h4>
+        <h2 class="text-uppercase text-center">Who is Speaking</h2>
+        <div class="row mt-5 g-4 justify-content-center">
+          <div class="col-md-6 col-lg-4 rounded-4 position-relative overflow-hidden" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box">
+              <div class="image">
+                <img src="imgs/4.jpg.webp" alt="speaker" class="img-fluid" loading="lazy">
+              </div>
+              <div class="speaker-info">
+                <h5>Albert Barnes</h5>
+                <span class="color-pink fw-bold">Founder</span>
+              </div>
+              <div class="social-info bg-pink">
+                <a href="#"> <i class="fab fa-facebook"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-6 col-lg-4 rounded-4 position-relative overflow-hidden" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box">
+              <div class="image">
+                <img src="imgs/image (4).jpg" alt="speaker" class="img-fluid" loading="lazy">
+              </div>
+              <div class="speaker-info">
+                <h5>Patricia Stanley</h5>
+                <span class="color-pink fw-bold">Product Lead</span>
+              </div>
+              <div class="social-info bg-pink">
+                <a href="#"> <i class="fab fa-facebook"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-6 col-lg-4 rounded-4 position-relative overflow-hidden" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box">
+              <div class="image">
+                <img src="imgs/image (13).jpg" alt="speaker" class="img-fluid" loading="lazy">
+              </div>
+              <div class="speaker-info">
+                <h5>Evelyn Stone</h5>
+                <span class="color-pink fw-bold">Photographer</span>
+              </div>
+              <div class="social-info bg-pink">
+                <a href="#"> <i class="fab fa-facebook"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-6 col-lg-4 rounded-4 position-relative overflow-hidden" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box">
+              <div class="image">
+                <img src="imgs/image (5).jpg" alt="speaker" class="img-fluid" loading="lazy">
+              </div>
+              <div class="speaker-info">
+                <h5>Evelyn Stone</h5>
+                <span class="color-pink fw-bold">Photographer</span>
+              </div>
+              <div class="social-info bg-pink">
+                <a href="#"> <i class="fab fa-facebook"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 rounded-4 position-relative overflow-hidden" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box">
+              <div class="image">
+                <img src="imgs/image (6).jpg" alt="speaker" class="img-fluid" loading="lazy">
+              </div>
+              <div class="speaker-info">
+                <h5>Susan Hopkins</h5>
+                <span class="color-pink fw-bold">UX Manager</span>
+              </div>
+              <div class="social-info bg-pink">
+                <a href="#"> <i class="fab fa-facebook"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 rounded-4 position-relative overflow-hidden" data-aos="fade-up"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box">
+              <div class="image">
+                <img src="imgs/image (7).jpg" alt="speaker" class="img-fluid" loading="lazy">
+              </div>
+              <div class="speaker-info">
+                <h5>Michael Fowler</h5>
+                <span class="color-pink fw-bold">Product Design</span>
+              </div>
+              <div class="social-info bg-pink">
+                <a href="#"> <i class="fab fa-facebook"></i> </a>
+                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                <a href="#"> <i class="fab fa-twitter"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn border-2 border-white rounded-pill py-2 px-3 text-uppercase text-white d-block my-5 mx-auto"
+          data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">View All Speakers
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+    <!-- End Speakers -->
+    <!-- Start Schedule -->
+    <div class="schedule sec-padding position-relative" id="schedule">
+      <div class="container">
+        <h4 class="text-uppercase text-center color-pink">Our Timetable</h4>
+        <h2 class="text-uppercase text-center">SCHEDULE PLAN</h2>
+        <div class="tabs my-5 d-flex align-items-center justify-content-center rounded-4 overflow-hidden">
+          <div class="tab active text-center text-white-50 py-2 px-3 border-end border-secondary" data-day="monday">
+            <h4>Monday</h4>
+            <p class="m-0">January 14, 2023</p>
+          </div>
+          <div class="tab text-center text-white-50 py-2 px-3 border-end border-secondary" data-day="tuesday">
+            <h4>Tuesday</h4>
+            <p class="m-0">January 15, 2023</p>
+          </div>
+          <div class="tab text-center text-white-50 py-2 px-3" data-day="wednesday">
+            <h4>Wednesday</h4>
+            <p class="m-0">January 16, 2023</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="box my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="monday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/schedule2.jpg" class="img-fluid" loading="lazy" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Dealing with Difficult People</h5>
+                <p class="m-0">by <span class="text-white-50">Gary Armstrong</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+          <div class="box my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="monday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/schedule1.jpg" class="img-fluid" loading="lazy" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Crop Insurance Conference</h5>
+                <p class="m-0">by <span class="text-white-50">Amanda Hudson</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+          <div class="box my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="monday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/image (2).jpg" class="img-fluid" loading="lazy" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Capdm Executive Conference</h5>
+                <p class="m-0">by <span class="text-white-50">John Doe</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+          <div class="box my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="monday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/schedule4.jpg" class="img-fluid" loading="lazy" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Street Food Convention</h5>
+                <p class="m-0">by <span class="text-white-50">Neil Armstrong</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+          <div class="box hide my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="tuesday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/schedule1.jpg" class="img-fluid" loading="lazy" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Street Food Convention</h5>
+                <p class="m-0">by <span class="text-white-50">Neil Armstrong</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+          <div class="box hide my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="tuesday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/schedule2.jpg" loading="lazy" class="img-fluid" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Street Food Convention</h5>
+                <p class="m-0">by <span class="text-white-50">Neil Armstrong</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+          <div class="box hide my-4 border rounded-4 px-4 py-3 d-flex align-items-center gap-5" data-day="wednesday"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="caption d-flex align-items-center gap-4 ">
+              <img src="imgs/image (2).jpg" loading="lazy" class="img-fluid" alt="schedule image">
+              <div class="text">
+                <h5 class="m-0 mb-2">Street Food Convention</h5>
+                <p class="m-0">by <span class="text-white-50">Neil Armstrong</span> / Ceo of Confer</p>
+              </div>
+            </div>
+            <div class="details">
+              <p class="m-0 mb-2"> <i class="fas fa-clock color-pink me-2"></i> 12-14 Jan 2023</p>
+              <p class="m-0"> <i class="fas fa-map color-pink me-2"></i> Mountain Resort, Phoenix, USA</p>
+            </div>
+            <button class="btn-bg rounded-pill py-2 px-3 text-uppercase text-white ms-auto"> View More
+              <i class="fas fa-arrow-right"></i> </button>
+          </div>
+
+          <button class="download btn-bg border my-5 d-block mx-auto rounded-pill py-2 px-3 text-uppercase text-white"
+            data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            Download Schedule PDF</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Schedule -->
+    <!-- Start Tickets -->
+    <div class="tickets bg-img sec-padding" id="tickets">
+      <div class="container">
+        <h4 class="text-uppercase text-center">Choose a Ticket</h4>
+        <h2 class="text-uppercase text-center">Ticket Pricing</h2>
+        <div class="row my-5 g-4 justify-content-between">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="ticket position-relative overflow-hidden text-center bg-white text-black py-3 px-4 rounded-3">
+              <h6 class="plan text-uppercase bg-pink text-white py-2 px-4 rounded-2">1 Day Pass</h6>
+              <div class="icon">
+                <img src="imgs/p1.png.webp" class="img-fluid" loading="lazy" alt="Ticket Image">
+              </div>
+              <div class="price text-center"> <span class="fs-4 position-relative" style="top: -15px">$</span>59
+              </div>
+              <button
+                class="w-100 btn-bg mt-3 mb-5 d-block mx-auto rounded-pill py-2 px-3 text-uppercase text-white shadow-lg">
+                Get Tickets <i class="fas fa-arrow-right"></i>
+              </button>
+              <ul class="list-unstyled d-flex flex-column align-items-center gap-3">
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  One Day Conference Ticket
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Coffee-break
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Lunch and Networking
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Keynote talk
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Talk to the Editors Session
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="ticket position-relative overflow-hidden text-center bg-white text-black py-3 px-4 rounded-3">
+              <h6 class="plan text-uppercase bg-pink text-white  py-2 px-4 rounded-2">Full Pass</h6>
+              <div class="icon">
+                <img src="imgs/p2.png.webp" class="img-fluid" loading="lazy" alt="Ticket Image">
+              </div>
+              <div class="price text-center"> <span class="fs-4 position-relative" style="top: -15px">$</span>99
+              </div>
+              <button
+                class="w-100 btn-bg mt-3 mb-5 d-block mx-auto rounded-pill py-2 px-3 text-uppercase text-white shadow-lg">
+                Get Tickets <i class="fas fa-arrow-right"></i>
+              </button>
+              <ul class="list-unstyled d-flex flex-column align-items-center gap-3">
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  One Day Conference Ticket
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Coffee-break
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Lunch and Networking
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Keynote talk
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Talk to the Editors Session
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="ticket position-relative overflow-hidden text-center bg-white text-black py-3 px-4 rounded-3">
+              <h6 class="plan text-uppercase bg-pink text-white  py-2 px-4 rounded-2">Group Pass</h6>
+              <div class="icon">
+                <img src="imgs/p3.png.webp" class="img-fluid" loading="lazy" alt="Ticket Image">
+              </div>
+              <div class="price text-center"> <span class="fs-4 position-relative" style="top: -15px">$</span>199
+              </div>
+              <button
+                class="w-100 btn-bg mt-3 mb-5 d-block mx-auto rounded-pill py-2 px-3 text-uppercase text-white shadow-lg">
+                Get Tickets <i class="fas fa-arrow-right"></i>
+              </button>
+              <ul class="list-unstyled d-flex flex-column align-items-center gap-3">
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  One Day Conference Ticket
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Coffee-break
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Lunch and Networking
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Keynote talk
+                </li>
+                <li class=" d-flex align-items-center gap-2 text-secondary">
+                  <i class="fas fa-check color-pink"></i>
+                  Talk to the Editors Session
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Tickets -->
+    <!-- Start Sponsors -->
+    <div class="sponsors sec-padding" id="sponsors">
+      <div class="container">
+        <h4 class="text-uppercase text-center color-pink">Partners & Sponsors</h4>
+        <h2 class="text-uppercase text-center">Official Sponsors</h2>
+        <div class="spons-container text-center my-5 border d-flex align-items-center flex-wrap" data-aos="fade-up"
+          data-aos-easing="linear" data-aos-duration="1500">
+          <div class="spon border-end border-bottom p-5 "> <img src="imgs/spon1.jpg" class="img-fluid" loading="lazy"
+              alt="sponsor">
+          </div>
+          <div class="spon border-end border-bottom p-5"> <img src="imgs/spon2.jpg" class="img-fluid" loading="lazy"
+              alt="sponsor">
+          </div>
+          <div class="spon border-end border-bottom p-5 "> <img src="imgs/spon3.jpg" class="img-fluid" loading="lazy"
+              alt="sponsor">
+          </div>
+          <div class="spon border-bottom p-5"> <img src="imgs/spon4.jpg" class="img-fluid" loading="lazy" alt="sponsor">
+          </div>
+          <div class="spon border-end p-5"> <img src="imgs/spon5.jpg" class="img-fluid" loading="lazy" alt="sponsor">
+          </div>
+          <div class="spon border-end p-5"> <img src="imgs/spon1.jpg" class="img-fluid" loading="lazy" alt="sponsor">
+          </div>
+          <div class="spon border-end p-5 "> <img src="imgs/spon2.jpg" class="img-fluid" loading="lazy" alt="sponsor">
+          </div>
+          <div class="spon p-5 "> <img src="imgs/spon3.jpg" class="img-fluid" loading="lazy" alt="sponsor"> </div>
+        </div>
+
+        <div class="swiper-container overflow-hidden py-5" style="margin-top: 100px;" data-aos="fade-up"
+          data-aos-easing="linear" data-aos-duration="1500">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide rounded-3 p-4">
+              <div class="content p-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eius culpa doloremque obcaecati
+                  consequuntur soluta nostrum odit odio ad illo!
+                </p>
+                <div class="info mt-4 d-flex gap-3 align-items-center">
+                  <img src="imgs/image (2).jpg" alt="the image" class="img-fluid rounded-circle"
+                    style="width: 75px; height: 75px">
+                  <div class="text">
+                    <h6>John Doe</h6>
+                    <span class="color-pink">UX Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide rounded-3 p-4">
+              <div class="content p-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eius culpa doloremque obcaecati
+                  consequuntur soluta nostrum odit odio ad illo!
+                </p>
+                <div class="info mt-4 d-flex gap-3 align-items-center">
+                  <img src="imgs/image (19).jpg" alt="the image" class="img-fluid rounded-circle"
+                    style="width: 75px; height: 75px">
+                  <div class="text">
+                    <h6>Luce Lany</h6>
+                    <span class="color-pink">UX Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide rounded-3 p-4">
+              <div class="content p-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eius culpa doloremque obcaecati
+                  consequuntur soluta nostrum odit odio ad illo!
+                </p>
+                <div class="info mt-4 d-flex gap-3 align-items-center">
+                  <img src="imgs/image (1).jpg" alt="the image" class="img-fluid rounded-circle"
+                    style="width: 75px; height: 75px">
+                  <div class="text">
+                    <h6>Anotonilla</h6>
+                    <span class="color-pink">UX Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide rounded-3 p-4">
+              <div class="content p-2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eius culpa doloremque obcaecati
+                  consequuntur soluta nostrum odit odio ad illo!
+                </p>
+                <div class="info mt-4 d-flex gap-3 align-items-center">
+                  <img src="imgs/schedule4.jpg" alt="the image" class="img-fluid rounded-circle"
+                    style="width: 75px; height: 75px">
+                  <div class="text">
+                    <h6>Mathilled Maxime</h6>
+                    <span class="color-pink">UX Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </div>
+    <!-- End Sponsors -->
+    <!-- Start Blog -->
+    <div class="blog bg-img sec-padding" id="blog">
+      <div class="container">
+        <div class="container">
+          <h4 class="text-uppercase text-center">Our Blog</h4>
+          <h2 class="text-uppercase text-center">Latest News</h2>
+          <div class="row mt-5 g-5 text-black">
+            <div class="col-md-6 col-lg-4">
+              <div class="card text-center border pb-4">
+                <div class="image"><img src="imgs/blog1.jpg" class="card-img-top" alt="blog image"></div>
+                <div class="card-body">
+                  <h6 class="card-title color-pink">Street Food Convention</h6>
+                  <p class="card-title mt-2 mb-4 text-secondary d-flex gap-3 justify-content-center"
+                    style="font-size: 12px;">
+                    <span> <i class="fab fa-algolia color-pink me-1"></i> January 14, 2019 </span>
+                    <span> <i class="fas fa-user color-pink me-1"></i> Laura Peen </span>
+                  </p>
+                  <p class="card-text fs-5" style="color: #777;">Street Food Convention will showcase products like
+                    Packed
+                    food,
+                    beef and lamb,
+                    street food</p>
+                  <button
+                    class="position-absolute shadow-lg btn-bg rounded-pill py-2 px-3 text-uppercase text-white d-block mx-auto">
+                    <i class="fas fa-arrow-right"></i> </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card text-center border pb-4">
+                <div class="image"><img src="imgs/blog4.webp" class="card-img-top" alt="blog image"></div>
+                <div class="card-body">
+                  <h6 class="card-title color-pink">Tedx Moscow Conference</h6>
+                  <p class="card-title mt-2 mb-4 text-secondary d-flex gap-3 justify-content-center"
+                    style="font-size: 12px;">
+                    <span> <i class="fab fa-algolia color-pink me-1"></i> January 14, 2019 </span>
+                    <span> <i class="fas fa-user color-pink me-1"></i> Laura Peen </span>
+                  </p>
+                  <p class="card-text fs-5" style="color: #777;">Street Food Convention will showcase products like
+                    Packed
+                    food,
+                    beef and lamb,
+                    street food</p>
+                  <button
+                    class="position-absolute shadow-lg btn-bg rounded-pill py-2 px-3 text-uppercase text-white d-block mx-auto">
+                    <i class="fas fa-arrow-right"></i> </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card text-center border pb-4">
+                <div class="image"><img src="imgs/blog5.jpg.webp" class="card-img-top img-fluid" alt="blog image"></div>
+                <div class="card-body">
+                  <h6 class="card-title color-pink">Los Angeles Institute</h6>
+                  <p class="card-title mt-2 mb-4 text-secondary d-flex gap-3 justify-content-center"
+                    style="font-size: 12px;">
+                    <span> <i class="fab fa-algolia color-pink me-1"></i> January 14, 2019 </span>
+                    <span> <i class="fas fa-user color-pink me-1"></i> Laura Peen</span>
+                  </p>
+                  <p class="card-text fs-5" style="color: #777;">Street Food Convention will showcase products like
+                    Packed
+                    food,
+                    beef and lamb,
+                    street food</p>
+                  <button
+                    class="position-absolute shadow-lg btn-bg rounded-pill py-2 px-3 text-uppercase text-white d-block mx-auto">
+                    <i class="fas fa-arrow-right"></i> </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Blog -->
+    <!-- Start Contact -->
+    <div class="contact sec-padding" id="contact">
+      <div class="container">
+        <h4 class="text-uppercase text-center">Have Question?</h4>
+        <h2 class="text-uppercase text-center fs-1">Contact Us</h2>
+        <div class="row g-4 mt-5 ">
+          <div class="col-md-4">
+            <div class="details text-center text-md-start">
+              <span class="text-white-50">Address: </span>
+              <p class="mb-5 mt-1 fs-5">184 Main Collins Street</p>
+              <span class="text-white-50">Phone: </span>
+              <p class="mb-5 mt-1 fs-5">(226) 446 9371</p>
+              <span class="text-white-50">Email: </span>
+              <p class="mb-5 mt-1 fs-5">confer@gmail.com</p>
+              <span class="text-white-50">Website: </span>
+              <p class="mb-4 mt-1 fs-5">www.confer.com</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="form py-4 px-5 rounded-4">
+              <div class="row">
+                <div class="col-lg-6 pb-2 ">
+                  <input type="text" class="form-control border-bottom" placeholder="First Name" required>
+                </div>
+                <div class="col-lg-6 pb-2 ">
+                  <input type="text" class="form-control border-bottom" placeholder="Last Name" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 pb-2 ">
+                  <input type="email" class="form-control border-bottom" placeholder="Email" required>
+                </div>
+                <div class="col-lg-6 pb-2 ">
+                  <input type="tel" class="form-control border-bottom" placeholder="Phone" required>
+                </div>
+              </div>
+              <textarea class="form-control border-bottom" placeholder="Your Message"></textarea>
+              <button class="btn-bg d-block mt-4 mx-auto me-md-0 py-2 px-3 text-uppercase  rounded-pill text-white">
+                Send Message <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer  -->
+    <div class="footer pt-5 text-center">
+      <div class="container">
+        <div class="row g-4 ">
+          <div class="col-md-6 col-lg-3">
+            <img src="imgs/image.jpg" alt="logo" class="img-fluid">
+            <p class="my-4" style="color: #9293bc;">
+              To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.
+            </p>
+            <div class="social mb-4 d-flex justify-content-center align-items-center gap-3">
+              <i class="fab fa-facebook rounded-circle border p-2" style="width: 15px; height: 15px;"></i>
+              <i class="fab fa-instagram rounded-circle border p-2" style="width: 15px; height: 15px;"></i>
+              <i class="fab fa-twitter rounded-circle border p-2" style="width: 15px; height: 15px;"></i>
+              <i class="fab fa-linkedin-in rounded-circle border p-2" style="width: 15px; height: 15px;"></i>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h4>Contact</h4>
+            <ul class="list-unstyled my-4" style="color: #9293bc;">
+              <li class="mb-3">
+                <i class="fas fa-map me-2"></i>
+                <span> 184 Main Collins Street</span>
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone me-2"></i>
+                <span> (226) 446 9371</span>
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-envelope me-2"></i>
+                <span> confer@gmail.com</span>
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-earth-americas me-2"></i>
+                <span>www.confer.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h4>Workshops</h4>
+            <ul class="links list-unstyled my-4" style="color: #9293bc;">
+              <li class="mb-3">
+                <a href="#">OSHA Compliance</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Excel Basics</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Forum Speaker Series</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Tedx Moscow Conference</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h4>Gallery</h4>
+            <div class="images my-4 d-flex justify-content-center gap-2 flex-wrap">
+              <img src="imgs/schedule1.jpg" alt="gallery" class="img-fluid rounded-3">
+              <img src="imgs/schedule2.jpg" alt="gallery" class="img-fluid rounded-3">
+              <img src="imgs/schedule4.jpg" alt="gallery" class="img-fluid rounded-3">
+              <img src="imgs/blog1.jpg" alt="gallery" class="img-fluid rounded-3">
+              <img src="imgs/blog4.webp" alt="gallery" class="img-fluid rounded-3">
+              <img src="imgs/blog5.jpg.webp" alt="gallery" class="img-fluid rounded-3">
+            </div>
+          </div>
+        </div>
+        <div class="copyright py-3 border-top " style="color: #9293bc;">
+          <p class="fs-5 d-flex flex-wrap align-items-center justify-content-center gap-1">
+            Copyright ©2023 All rights reserved | This template is made with <span class="fs-3">&hearts; </span> by
+            <span class="text-white">Gemy</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer  -->
+    <!-- Scroll Button -->
+    <button class="scroll"> <i class="fas fa-arrow-up"></i></button>
+  </div>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+
+      loop: true,
+      loopAdditionalSlides: 1,
+      spaceBetween: 30,
+      grabCursor: true,
+      fade: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetweenSlides: 30
+        },
+        767: {
+          slidesPerView: 2,
+          spaceBetweenSlides: 30
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetweenSlides: 30,
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
