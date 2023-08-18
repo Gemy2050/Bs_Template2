@@ -479,8 +479,8 @@ button:hover svg {
   z-index: 1000;
 }
 .loading .spinner {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-bottom-color: transparent !important;
   animation: spin 1s linear infinite;
 }
