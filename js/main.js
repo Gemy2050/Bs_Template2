@@ -37,7 +37,7 @@ window.addEventListener("scroll", () => {
 });
 
 // Handle Event
-let countDownDate = new Date("Sep 30, 2023 00:00:00").getTime();
+let countDownDate = new Date("Jul 01, 2024 00:00:00").getTime();
 
 let intervalId = setInterval(() => {
   let currentDate = new Date().getTime();
@@ -63,7 +63,7 @@ let intervalId = setInterval(() => {
     seconds < 10 ? `0${seconds}` : seconds;
 
   if (diff < 0) {
-    clearInterval(counter);
+    clearInterval(intervalId);
   }
 }, 1000);
 
